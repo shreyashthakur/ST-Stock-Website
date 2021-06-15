@@ -1,0 +1,94 @@
+body h1 {
+    font-family: 'Staatliches', cursive;
+    color: yellowgreen;
+}
+
+body p {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+
+/* Utilty Classes*/
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.hero_image {
+    background: url(https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero_wrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero_wrapper h1 {
+    font-size: 9.0rem;
+    text-align: center;
+}
+
+.form_code {
+    text-align: center;
+}
+
+.form_code .post_code {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+
+.form_code button {
+    width: 40%;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: .6rem;
+    margin: 1rem auto 0rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+
+/*  Product Section */
+
+.product {
+    width: 88%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_heading {
+    font-family: 'Staatliches', cursive;
+}
+
+.product_list_item {
+    float: left;
+    width: 24.0%;
+    margin-left: .6rem;
+    margin-right: .2rem;
+}
+
+.product_list_item:first-of-type {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .product_list_item {
+        width: 100%;
+        float: none;
+    }
+}
